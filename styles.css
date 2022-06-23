@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #aaaaaa;
+  background-color: #aacc;
   border-radius: 10px;
   margin: 15px 10px 10px 10px;
 }
@@ -27,21 +27,9 @@ p {
   height: 50px;
 }
 
-#img-div {
+.container {
   background-color: #eeeeee;
-  height: 30vh;
+  height: 65vh;
   width: 90%;
-  overflow: hidden;
-}
-
-#image {
-  max-width: 90%;
-  height: 360px;
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 7px 10px 7px;
-  padding: 10px 7px -25px -6px
+  margin: 0 auto 0 auto;
 }
