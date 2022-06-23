@@ -1,0 +1,46 @@
+html {
+  background-color: #eeeeee;
+}
+
+body {
+  background-color: #aacc;
+  border-radius: 10px;
+  margin: 15px 10px 10px 10px;
+}
+
+h1, p {
+  font-family: Helvetica, Bahnschrift;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+#title {
+  font-size: 50px;
+  height: 50px;
+}
+
+#img-div {
+  background-color: #eeeeee;
+  height: 60vh;
+  width: 90%;
+}
+
+#image {
+  max-width: 90%;
+  height: 360px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 7px 10px 7px;
+  padding: 10px 7px -25px -6px
+}
