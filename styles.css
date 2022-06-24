@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #aacc;
+  background-color: #aaaaaa;
   border-radius: 10px;
   margin: 15px 10px 10px 10px;
 }
@@ -32,4 +32,19 @@ p {
   height: 65vh;
   width: 90%;
   margin: 0 auto 0 auto;
+}
+
+.img{
+
+}
+
+
+div.info {
+  text-align: center; 
+  list-style: inside;
+}
+
+ul.truth {
+  display: inline-block;
+  text-align: left;
 }
