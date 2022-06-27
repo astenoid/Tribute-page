@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #aaaaaa;
+  background-color: #cdcdcd;
   border-radius: 10px;
   margin: 15px 10px 10px 10px;
 }
@@ -14,12 +14,20 @@ h1, p {
 }
 
 h1 {
-  padding-top: 20px;
+  padding-top: 25px;
+  margin: 0 auto 0 auto;
 }
 
 p {
+  padding-top: 12px;
+  padding-bottom: 9px;
+  margin: 0 auto 0 auto;
   font-size: 20px;
   font-style: italic;
+}
+
+h2 {
+  margin: 40px auto 5px auto;
 }
 
 #title {
@@ -32,19 +40,116 @@ p {
   height: 65vh;
   width: 90%;
   margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.img{
-
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: 10px auto;
+  position: absolute;
+  top: 5%;
+  bottom: 10%;
 }
 
+#img-caption {
+  font-size: 20px;
+  height: 10px;
+  margin: 20px auto 0 auto;
+  position: absolute;
+  top: 90%;
+  bottom: 10%;
+}
+
+.one {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.two {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.three {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.four {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.five {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.six {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.seven {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.eight {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #555555;
+}
 
 div.info {
   text-align: center; 
   list-style: inside;
+  font-family: Bahnschrift;
+  width: 40%;
+  margin: auto;
 }
 
 ul.truth {
   display: inline-block;
   text-align: left;
+}
+
+.ref {
+  text-align: center; 
+  list-style: inside;
+  font-family: arial;
+  width: 40%;
+  margin: auto;
+  font-weight: lighter;
+  color: #a0a4d0;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+a::hover {
+  color: darkred;
 }
